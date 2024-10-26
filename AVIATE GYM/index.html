@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AVIATE GYM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <div class="time">
+            <img id="hour" src="GYM IMAGES/hour_logo-removebg-preview.png" width="13%;" heigth="13%;">
+            <div class="tit">
+                <h1 style="margin-left: 235%; font-size: 50px;">AVIATE</h1>
+                <h4 style="margin-left: 260%;margin-top: -8px;">Fitness_Studio</h4>
+            </div>
+            <button id="join"><strong>JOIN AVIATE</strong></button>
+            <div id="popup" >
+                <form class="formm"><br><br>
+                    <table>
+                        <tr><label for="name">Name: </label><input type="text" name="name" id="login"
+                            placeholder="Enter your name"></tr><br><br>
+                            <tr><label for="mail">Email: </label> <input type="email" name="mail" id="login"
+                                placeholder="Enter your Email Address"></tr><br><br>
+                                <tr><label for="mail">Contact: </label> <input type="text" name="Contact" id="login"
+                                    placeholder="Enter your Contact Number"></tr><br><br><br>
+                                    <tr><label for="mail">Age: </label> <input type="number" name="Age" id="login"
+                                        placeholder="Enter your Age"></tr><br><br><br>
+                                        <tr><input style="padding:3px;" type="submit"><br> <br><input style="padding:3px;" type="reset">
+                                        </tr>
+                                    </table>
+                                </form><br>
+                                <button style="padding:3px;" id="closepopup">Close</button>
+                            </div>
+                        </div>
+                        <a id="home">
+                        <div class="summa">
+                            <div id="navbar">
+                                
+                                <a href="#home">Home</a>
+                                <a href="#about">About us</a>
+                                <a href="#gym fees"> Gym Fees</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <script>
+            document.getElementById("popup").classList.add("hidden");
+            document.getElementById("join").addEventListener("click", function () {
+                document.getElementById("popup").classList.remove("hidden");
+            });
+            document.getElementById("closepopup").addEventListener("click", function () {
+                document.getElementById("popup").classList.add("hidden");
+               
+            });
+        </script>
+
+        <div class="rare">
+                <img src="GYM IMAGES/opening img.jpg" width="1538px;" height="647px;">
+                <a id="about">
+                </a><br><br><br><br>
+                
+            </div>
+            <div class="intro">
+                <img style="margin-left: 200px; border-radius: 10%;" src="GYM IMAGES/image.png" width="500px;">
+            <div class="intro1">
+                <h1>Welcome to Aviate Fitness Studio</h1><br>
+                <p style="line-height: 23px; font-family: Arial, Helvetica, sans-serif;">AVIATE Fitness is not a gym; it
+                    is
+                    a way of life. It is widely recognised <br>as a premium that promotes a healthy lifestyle. It is one
+                    of
+                    the best <br>fitness centers in Chennai, a preferred destination for several top-<br>notch training
+                    programs.</p><br>
+                    <p style="line-height: 23px;font-family: Arial, Helvetica, sans-serif;"><strong>Our personalized designs
+                        will assist you in having the best time<br> of your life. We provide various services such as
+                        functional<br> training, fitness boot camp, body transformation, weight loss,<br> and weight
+                        gain.</strong></p><br>
+                        <p style="line-height: 23px;font-family: Arial, Helvetica, sans-serif;">The goal of this venture was to
+                            provide the best fitness experience <br>possible under the supervision of highly qualified and
+                            experienced <br>professionals. </p>
+                        </div>
+                    </div><br><br>
+                    <div class="bgcolor">
+            <h2 style="color:white;margin-left: 43%; ">Inside Our Gym</h2>
+            <div id="inside">
+                <img src="GYM IMAGES/inside 1.jpg" width="300px" height="180px;">
+                <img src="GYM IMAGES/inside2.jpg" width="300px" height="180px;">
+                <img src="GYM IMAGES/inside3.jpg" width="300px" height="180px;">
+                <img src="GYM IMAGES/inside4.jpg" width="300px" height="180px;">
+
+            </div>
+            <a id="gym fees">
+            </div><br><br>
+        </a>
+        <h2 style="color:red;margin-left: 30px;">Fees Packages :</h2>
+        <br><br>
+        <div class="offer">
+            <form class="tableform">
+                <table border="1" style="width: 800px; height: 350px;margin-left: 60px;">
+                    
+                    <tr class="ft">
+                        <td><b>S.no</td>
+                            <td><b>Catorgy</td>
+                                <td><b>Training periods</td>
+                        <td><b>Fees</td></b>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Silver Pack</td>
+                        <td>1 month</td>
+                        <td>2500/-</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Gold pack</td>
+                        <td>2 month</td>
+                        <td>5000/-</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Elite Pack</td>
+                        <td>3 month</td>
+                        <td>7500/-</td>
+                    </tr>
+                    
+                </table>
+            </form><br><br><br>
+            <img style="margin-left: 100px;" src="GYM IMAGES/special.gif" width=400px; heigth=170px;>
+        </div>
+    </a><br><br>
+    <h2 style="color:red;margin-left: 30px;">Benefits of joining our gym :</h2><br><br>
+    <p style="margin-left: 60px;font-family: Arial, Helvetica, sans-serif;">
+        <b>Improved physical health:</b> Regular exercise at a gym can improve cardiovascular health, increase
+        strength
+        and flexibility, and boost overall physical fitness.<br><br>
+        <b> Weight loss:</b>A gym provides access to a variety of exercise equipment and classes that can help with
+        weight loss and management.<br><br>
+        <b>Increased energy:</b>Regular physical activity at a gym can increase energy levels and improve overall
+        mood.<br><br>
+        <b>Social benefits:</b> Joining a gym can provide opportunities to meet new people and make friends who
+        share
+        similar fitness goals.
+    </p><br><br><br>
+    <div class="frame">
+        <img src="">
+        <div class="artic">
+            <div class="featured-article">
+                <img src="GYM IMAGES/art.jpeg">
+                <h2>10 Essential Techniques<br> to Track Your Fitness<br> Progress Effectively</h2><br>
+                <p style="font-family: Arial, Helvetica, sans-serif;">Introduction Tracking fitness progress <br>is
+                    an important way to keep ourselves<br> motivated, note where we need improvement,<br> and
+                    celebrate our wins. Be it <br>weight loss, muscle-building or simply getting<br> healthier this
+                    year. How well you maintain<br> your health & fitness...</p><br>
+                    <a href="https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/exercise/art-20048389"
+                    style="background-color:aqua;">Read Me</a>
+                </div>
+                <div class="article">
+                    <img src="GYM IMAGES/artic.jpeg">
+                    <h2>How to Stay Motivated on<br> Your Fitness Journey</h2><br>
+                    <p style="font-family: Arial, Helvetica, sans-serif;">Tracking fitness progress strength<br>is an
+                        important way to keep ourselves<br> motivated, note where we need improvement,<br> and celebrate
+                        our wins. Be it <br>weight loss, muscle-building or simply getting<br> healthier this year. How
+                        well you maintain<br> your health & fitness...</p><br>
+                        <a href="https://www.healthnord.com/en-us/fitness/the-ultimate-guide-to-staying-motivated-on-your-fitness-journey/#:~:text=The%20Ultimate%20Guide%20To%20Staying%20Motivated%20On%20Your,7%20Reward%20Yourself%20...%208%20Practice%20Self-Care%20"
+                        style="background-color:aqua;">Read Me</a>
+                    </div>
+                </div>
+                <a id="contact">
+                </div><br><br><br>
+                <iframe style="margin-left: 470px;" width="560" height="315"
+                src="https://www.youtube.com/embed/wa7k25wwmPI?si=s1Efq0-to33y17tR" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+                <img class="alt" src="GYM IMAGES/arrow-removebg-preview.png"><br><br>
+                <div class="marquee">JOIN NOW--------------WORK MORE---------------STAY STRONG---------------BY AVIATE FITNESS
+                    STUDIO</marquee>
+                </div><br>
+                <div class="bgclr">
+            <div class="address">
+                <div>
+                    <h1>AVIATE</h1>
+                    <h4>pain&gain</h4><br>
+                    <p style="line-height: 23px; font-family: Arial, Helvetica, sans-serif;">Slam is one of the best
+                        fitness<br>
+                        centers in Chennai. Our<br> customized designs will help to<br> enjoy the best experience of
+                        your life.
+                    </p><br>
+                    <h3 style="font-family: Arial, Helvetica, sans-serif; color:white;">Follow Us</h3><br>
+                    <a href="https://www.instagram.com/aviategym/"><img src="GYM IMAGES/instagram.png"
+                        width="30px; height=30px;"></a>
+                    <a href="https://www.facebook.com/reel/681627753840922"><img src="GYM IMAGES/facebook.png"
+                            width="30px; height=30px;"></a>
+                </div>
+
+                
+                <div>
+                    <h3 style="margin-left: 100px; margin-top:5px;text-decoration: underline;padding:5px; color:white;">
+                        For More Info</h3><br>
+                        <p style="margin-left: 100px; margin-top:5px;font-family: Arial, Helvetica, sans-serif;">
+                        Maheshkumar.B</p><br>
+                        <p style="margin-left: 100px; margin-top:5px;font-family: Arial, Helvetica, sans-serif;">
+                            <strong>P:</strong> 6383213377
+                        </p><br>
+                        <p style="margin-left: 100px; margin-top:5px;font-family: Arial, Helvetica, sans-serif;">
+                            <strong>E:</strong>maheshkumar.29404@gmail.com
+                        </p>
+                    </div>
+                    <div>
+                        <h3 style="margin-left: 100px; margin-top:5px;text-decoration: underline;padding:5px; color:white;">
+                            Corporate Office</h3><br>
+                            <p style="margin-left: 100px; margin-top:5px;font-family: Arial, Helvetica, sans-serif;">
+                        <strong>A:</strong> #18/70, Halls Road,Villivakkam
+                        Chennai – 600 010.
+                    </p><br>
+                    <p style="margin-left: 100px; margin-top:5px;font-family: Arial, Helvetica, sans-serif;">
+                        <strong>E:</strong>sudhanex@gmail.com
+                    </p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </a>
+    
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#hour {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+}
+
+#join {
+    color: white;
+    background-color: red;
+    padding: 15px;
+    margin-left: 920px;
+    border-radius: 20px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 0, 0.729);
+}
+#navbar a:hover{
+    color:BLACK;
+    
+}
+.marquee{
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        animation: marquee 15s linear infinite;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: larger;
+
+}
+
+@keyframes marquee {
+    0% { transform: translateX(98%); }
+    100% { transform: translateX(-60%); }
+}
+.offer{
+    display: flex;
+    align-items: center;
+}
+.summa {
+    position: sticky;
+    top: 0;
+    background-color: #ff1500;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: larger;
+}
+.summa a {
+    color: #f2f2f2;
+    float: none;
+    display: inline-block;
+    padding: 8px 25px;
+    text-decoration: none;
+}
+#navbar{
+    text-align: center;
+    padding: 0 0 10px;
+}
+.hidden {
+    display: none;
+}
+
+.frame {
+    background-image: url('GYM IMAGES/oip1.jpg');
+    background-size: cover;
+    height: 680px;
+}
+
+.featured-article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: justify;
+    margin-left: 300px;
+    margin-top: 50px;
+    padding: 30px;
+
+}
+
+.article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: justify;
+    margin-left: 230px;
+    margin-top: -50px;
+    padding: 40px;
+}
+
+#popup {
+    color: white;
+    position: fixed;
+    top: 20%;
+    left: 38%;
+    background-image: url('GYM IMAGES/tex.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#login {
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+form .tableform {
+    width: 350px;
+}
+
+.tableform {
+    text-align: center;
+}
+
+.ft {
+    color: white;
+    background-color: red;
+}
+
+.lin ul li {
+    padding: 20px;
+}
+
+#title {
+    margin-left: 30%;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.intro1 {
+    margin-top: -10px;
+    margin-left: 60px;
+}
+
+#inside {
+    display: flex;
+    margin-left: 70px;
+}
+
+#inside img {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.bgcolor {
+    background-color: grey;
+    padding: 20px;
+}
+
+.bgclr {
+    background-color: grey;
+}
+
+.alt {
+    width: 60px;
+    margin-left: 750px;
+}
+
+.address div {
+    margin-left: 50px;
+}
+
+.address {
+    display: flex;
+    color: white;
+    padding: 15px;
+}
+
+.address div a {
+    padding: 8px;
+}
+
+.address div h4 {
+    margin-left: 3px;
+    margin-top: -8px;
+}
+
+.formm {
+    text-align: center;
+}
